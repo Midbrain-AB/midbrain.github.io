@@ -2873,6 +2873,8 @@ a:hover .lnk-icon-right {
 }
 .fh5co-footer-style-3 .fh5co-footer-widget {
   margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
 }
 .fh5co-footer-style-3 .fh5co-logo {
   color: #fff;
@@ -2894,14 +2896,14 @@ a:hover .lnk-icon-right {
 }
 .fh5co-footer-style-3 .fh5co-copyright {
   font-size: 15px;
+  margin-bottom: -50px;
 }
 .fh5co-footer-style-3 h3 {
   color: #fff;
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 11px;
+  font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-top: 15px;
   margin-bottom: 35px;
 }
 @media screen and (max-width: 768px) {
@@ -2913,7 +2915,7 @@ a:hover .lnk-icon-right {
   color: rgba(255, 255, 255, 0.5);
 }
 .fh5co-footer-style-3 a {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.5);
 }
 .fh5co-footer-style-3 a:hover {
   color: white;
