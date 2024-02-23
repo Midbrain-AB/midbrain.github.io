@@ -29,7 +29,7 @@ html.mobile-menu-expanded {
 
 body {
   font-family: "Open Sans", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 26px;
   color: black;
   font-weight: 400;
@@ -123,13 +123,13 @@ a:hover, a:focus, a:active {
 }
 
 .btn-success {
-  background: #58ca7e;
+  background: rgba(0, 0, 0, 1);
   color: #fff;
-  border: 2px solid #58ca7e;
+  border: 2px solid rgba(0, 0, 0, 1);
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active {
-  background: #45c46f !important;
-  border-color: #45c46f !important;
+  background: #0B38BF !important;
+  border-color: #0B38BF !important;
 }
 .btn-success.btn-outline {
   background: transparent;
@@ -431,6 +431,7 @@ a:hover .lnk-icon-right {
   padding: 10px 0;
   float: left;
   margin: 0 20px 0 0;
+  text-align: center;
 }
 #fh5co-offcanvass > nav {
   position: relative !important;
@@ -525,8 +526,8 @@ a:hover .lnk-icon-right {
 }
 #fh5co-offcanvass ul li a.call-to-action {
   margin-top: 40px;
-  border: 2px solid #58ca7e;
-  background: #58ca7e;
+  border: 2px solid #ffffff;
+  background: #ffffff;
   padding: 2px 15px !important;
   display: -moz-inline-stack;
   display: inline-block;
@@ -536,12 +537,12 @@ a:hover .lnk-icon-right {
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   border-radius: 30px;
-  color: #fff;
+  color: #000;
 }
 #fh5co-offcanvass ul li a.call-to-action:hover {
   color: #fff;
-  border: 2px solid #45c46f;
-  background: #45c46f;
+  border: 2px solid #0B38BF;
+  background: #0B38BF;
 }
 #fh5co-offcanvass ul.fh5co-inline {
   width: 100%;
@@ -692,11 +693,12 @@ a:hover .lnk-icon-right {
 }
 .fh5co-nav-style-1 .fh5co-link-wrap ul li a:active, .fh5co-nav-style-1 .fh5co-link-wrap ul li a:focus, .fh5co-nav-style-2 .fh5co-link-wrap ul li a:active, .fh5co-nav-style-2 .fh5co-link-wrap ul li a:focus {
   text-decoration: none;
+  color: white;
 }
 .fh5co-nav-style-1 .fh5co-link-wrap ul li a.call-to-action, .fh5co-nav-style-2 .fh5co-link-wrap ul li a.call-to-action {
   margin-top: 2px;
-  border: 2px solid #58ca7e;
-  background: #58ca7e;
+  border: 2px solid #ffffff;
+  background: #ffffff;
   padding: 2px 15px !important;
   display: -moz-inline-stack;
   display: inline-block;
@@ -706,12 +708,12 @@ a:hover .lnk-icon-right {
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   border-radius: 30px;
-  color: #fff;
+  color: #000;
 }
 .fh5co-nav-style-1 .fh5co-link-wrap ul li a.call-to-action:hover, .fh5co-nav-style-2 .fh5co-link-wrap ul li a.call-to-action:hover {
   color: #fff;
-  border: 2px solid #45c46f;
-  background: #45c46f;
+  border: 2px solid #0B38BF;
+  background: #0B38BF;
 }
 .fh5co-nav-style-1 .fh5co-link-wrap ul li.active a, .fh5co-nav-style-2 .fh5co-link-wrap ul li.active a {
   color: #fff;
@@ -1870,7 +1872,6 @@ a:hover .lnk-icon-right {
 .fh5co-features-style-5 h3 {
   font-weight: 700;
   font-size: 24px;
-  text-transform: uppercase;
   margin-bottom: 12px;
 }
 .fh5co-features-style-1 h3,
@@ -2872,9 +2873,7 @@ a:hover .lnk-icon-right {
   font-size: 15px;
 }
 .fh5co-footer-style-3 .fh5co-footer-widget {
-  margin-bottom: 30px;
-  width: 100%;
-  text-align: center;
+  margin-bottom: 20px;
 }
 .fh5co-footer-style-3 .fh5co-logo {
   color: #fff;
@@ -2900,10 +2899,7 @@ a:hover .lnk-icon-right {
 }
 .fh5co-footer-style-3 h3 {
   color: #fff;
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 24px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  font-size: 18px;
   margin-bottom: 35px;
 }
 @media screen and (max-width: 768px) {
@@ -2921,7 +2917,7 @@ a:hover .lnk-icon-right {
   color: white;
 }
 .fh5co-footer-style-3 .btn {
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
   color: gray;
 }
 .fh5co-footer-style-3 .fh5co-links {
