@@ -79,7 +79,7 @@ a:hover, a:focus, a:active {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Galano Grotesque DEMO Bold", Arial, sans-serif;
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -2917,8 +2917,10 @@ a:hover .lnk-icon-right {
   color: white;
 }
 .fh5co-footer-style-3 .btn {
-  border-color: rgba(255, 255, 255, 0.5);
-  color: gray;
+  border-color: white;
+  font-family: "Galano Grotesque DEMO Bold", Arial, sans-serif;
+  color: black;
+  background: white;
 }
 .fh5co-footer-style-3 .fh5co-links {
   padding: 0;
