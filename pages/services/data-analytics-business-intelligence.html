@@ -154,6 +154,18 @@
 		  transition: 0.2s;
 		}
 		
+		@media (min-width: 480px) {
+			.custom-margin-left {
+				margin-left: 10%;
+				text-align: left; /* Keeps text aligned to the left */
+			}
+			.custom-margin-right {
+				margin-right: 10%;
+				text-align: right; /* Keeps text aligned to the right, assuming this is your intention */
+				float: right; /* Maintains the float:right; styling */
+			}
+		}
+		
   	</style>
 
 	</head>
@@ -191,7 +203,7 @@
 			<div class="container">
 				<div class="row p-b">
 					<!-- Parahraph 1 -->
-					<div class="col-md-6 col-md-offset-3 text-center" style="margin-left: 10%;text-align: left;">
+					<div class="col-md-6 col-md-offset-3 text-center custom-margin-left">
 						<h2 class="fh5co-heading wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".4s" style="margin-top:80px">Empower Your Decisions with Data Analytics and Business Intelligence</h2>
 						<p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".4s" style="text-align: justify;">
 							In an era where data is the new gold, understanding and leveraging this valuable asset is the key to success. 
@@ -200,7 +212,7 @@
 						</p>
 					</div>
 					<!-- Paragraph 2 -->
-					<div class="col-md-6 col-md-offset-3 text-center" style="margin-left: 0%;margin-right: 10%; text-align: right; float:right;">
+					<div class="col-md-6 col-md-offset-3 text-center custom-margin-right">
 						<h2 class="fh5co-heading wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".4s" style="margin-top:80px">Turning Data into Opportunities</h2>
 						<p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".4s" style="text-align: justify;">
 							Our suite of Data Analytics and Business Intelligence solutions is tailored to uncover the full potential of your data. 
@@ -209,7 +221,7 @@
 						</p>
 					</div>
 					<!-- Paragraph 3 -->
-					<div class="col-md-6 col-md-offset-3 text-center" style="margin-left: 10%;text-align: left;">
+					<div class="col-md-6 col-md-offset-3 text-center custom-margin-left">
 						<h2 class="fh5co-heading wow fadeInUp" data-wow-duration="0.3s" data-wow-delay=".1s" style="margin-top:80px">Customized Analytics Solutions for Every Need</h2>
 						<p class="wow fadeInUp" data-wow-duration="0.3s" data-wow-delay=".1s" style="text-align: justify;">
 							At Midbrain, we understand that each business is unique, with its own challenges and objectives. 
@@ -218,7 +230,7 @@
 						</p>
 					</div>
 					<!-- Paragraph 4 -->
-					<div class="col-md-6 col-md-offset-3 text-center" style="margin-left: 0%;margin-right: 10%; float:right; text-align: right;">
+					<div class="col-md-6 col-md-offset-3 text-center custom-margin-right">
 						<h2 class="fh5co-heading wow fadeInUp" data-wow-duration="0.3s" data-wow-delay=".1s" style="margin-top:80px">Why Partner with Midbrain?</h2>
 						<p class="wow fadeInUp" data-wow-duration="0.2s" data-wow-delay=".1s" >
 							<ul style="text-align: justify;">

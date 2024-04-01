@@ -155,7 +155,17 @@
 		  transition: 0.2s;
 		}
 		
-		
+		@media (min-width: 480px) {
+			.custom-margin-left {
+				margin-left: 10%;
+				text-align: left; /* Keeps text aligned to the left */
+			}
+			.custom-margin-right {
+				margin-right: 10%;
+				text-align: right; /* Keeps text aligned to the right, assuming this is your intention */
+				float: right; /* Maintains the float:right; styling */
+			}
+		}
 		
   	</style>
 
@@ -194,7 +204,7 @@
 			<div class="container">
 				<div class="row p-b">
 					<!-- Parahraph 1 -->
-					<div class="col-md-6 col-md-offset-3 text-center" style="margin-left: 10%;text-align: left;">
+					<div class="col-md-6 col-md-offset-3 text-center custom-margin-left">
 						<h2 class="fh5co-heading wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".4s" style="margin-top:80px">Elevate Your Data Strategy with Midbrain's Premier Data Engineering Practice</h2>
 						<p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".4s" style="text-align: justify;">
 						In today's data-driven world, the backbone of any successful organization lies in its ability to efficiently manage, process, and analyze vast amounts of data. 
@@ -203,7 +213,7 @@
 						</p>
 					</div>
 					<!-- Paragraph 2 -->
-					<div class="col-md-6 col-md-offset-3 text-center" style="margin-left: 0%;margin-right: 10%; text-align: right; float:right;">
+					<div class="col-md-6 col-md-offset-3 text-center custom-margin-right">
 						<h2 class="fh5co-heading wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".4s" style="margin-top:80px">Unlock the Power of Advanced Data Engineering</h2>
 						<p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".4s" style="text-align: justify;">
 						Our Data Engineering Practice is centered on developing sophisticated solutions that facilitate seamless data operations. 
@@ -212,7 +222,7 @@
 						</p>
 					</div>
 					<!-- Paragraph 3 -->
-					<div class="col-md-6 col-md-offset-3 text-center" style="margin-left: 10%;text-align: left;">
+					<div class="col-md-6 col-md-offset-3 text-center custom-margin-left">
 						<h2 class="fh5co-heading wow fadeInUp" data-wow-duration="0.3s" data-wow-delay=".1s" style="margin-top:80px">Tailored Solutions for Agility and Scalability</h2>
 						<p class="wow fadeInUp" data-wow-duration="0.3s" data-wow-delay=".1s" style="text-align: justify;">
 						At Midbrain, we believe in the power of tailored solutions. 
@@ -222,7 +232,7 @@
 						</p>
 					</div>
 					<!-- Paragraph 4 -->
-					<div class="col-md-6 col-md-offset-3 text-center" style="margin-left: 0%;margin-right: 10%; float:right; text-align: right;">
+					<div class="col-md-6 col-md-offset-3 text-center custom-margin-right">
 						<h2 class="fh5co-heading wow fadeInUp" data-wow-duration="0.3s" data-wow-delay=".1s" style="margin-top:80px">Why Choose Midbrain for Your Data Engineering Needs?</h2>
 						<p class="wow fadeInUp" data-wow-duration="0.2s" data-wow-delay=".1s" >
 							<ul style="text-align: justify;">
